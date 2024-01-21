@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Salsa", cursive;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-image: url(/images/nav.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 0.8rem;
+  height: 45px;
+  width: 100%;
+  box-shadow: 0px 3px 5px rgb(124, 124, 124);
+  z-index: 100;
+}
+
+.logo-div {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  position: relative;
+  left: 10px;
+}
+
+.logo-div img {
+  width: 60px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 40px;
+}
+
+.nav_list {
+  display: flex;
+  width: 60%;
+  list-style: none;
+  align-items: center;
+  padding: 25px;
+  margin-left: 20px;
+}
+
+.nav_list li {
+  height: 40px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_search {
+  display: flex;
+  height: 30px;
+  width: 45%;
+  margin: 10px;
+}
+
+.all_search {
+  width: 50px;
+  background-color: rgb(235, 226, 226);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid rgb(182, 172, 172);
+}
+
+.search_bar {
+  width: 70%;
+  border: none;
+  padding: 15px;
+}
+
+.search_icon {
+  width: 7%;
+  background-color: rgb(235, 226, 226);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+
+.search_icon:hover {
+  transform: scale(1.1);
+  background-color: rgb(212, 203, 203);
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 10px;
+}
+
+.line {
+  width: 33px;
+  background-color: #fff;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+.container {
+  height: 94vh;
+  background-image: url(/images/hello.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.right_half {
+  color: #fff;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.text_right {
+  font-size: 2rem;
+  margin: 15px;
+  font-family: "Salsa", cursive;
+}
+
+.icons_div {
+  display: flex;
+}
+
+.icons_div img {
+  height: 50px;
+  width: 50px;
+}
+
+.icons {
+  background-color: rgb(206, 195, 195);
+  height: 50px;
+  width: 50px;
+  justify-content: space-evenly;
+  border-radius: 23px;
+  margin: 35px 15px 10px 0px;
+  display: block;
+  margin: auto;
+}
+
+.icons:hover {
+  box-shadow: 0px 0px 7px #1c9ff1 inset, 0px 0px 7px #ff0095;
+}
+
+.blue:hover {
+  box-shadow: 0px 0px 7px #1c9ff1 inset, 0px 0px 7px #001aff;
+}
+
+.yellow:hover {
+  box-shadow: 0px 0px 7px #1c9ff1 inset, 0px 0px 7px #f3e51c;
+}
+
+.container_2nd {
+  height: 90vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+}
+
+.text_about_us {
+  margin: 10px;
+  width: 70%;
+}
+
+.text_right_about {
+  font-size: 1.3rem;
+  margin: 5px;
+  color: green;
+}
+
+.image_about_us {
+  width: 50%;
+  height: 100%;
+}
+
+.image_about_us img {
+  width: 30%;
+  height: 100%;
+  width: 100%;
+}
+.container_3nd {
+  background-color: #fff;
+  position: relative;
+}
+.menu_text {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coffee_menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.menu_coffee_div {
+  height: 235px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu_coffee_div img {
+  height: 200px;
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.coffee2th:hover {
+  scale: 120%;
+  z-index: 5;
+}
+.container_4nd {
+  background-color: rgb(75, 17, 17);
+}
+.contact {
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.left_contact_input {
+  display: block;
+  margin: auto;
+  background: transparent;
+  border: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.contact_submit {
+  width: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+}
+.right_contact {
+  margin: 15px;
+  
+}
+.social_icons {
+  display: flex;
+  gap: 15px;
+  margin: 10px;
+}
+.color {
+  color: #fff;
+}
