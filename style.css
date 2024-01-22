@@ -21,7 +21,7 @@ html {
 
 .navbar {
   display: flex;
-  position: sticky;
+  position: fixed;
   top: 0;
   background-image: url(/images/nav.PNG);
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ html {
 }
 
 .container {
-  height: 94vh;
+  height: 100vh;
   background-image: url(/images/hello.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
