@@ -19,7 +19,7 @@
 @media (max-width: 550px) {
   .navbar {
     flex-direction: column;
-    height: 314px;
+    height: 322px;
     transition: all 0.3s ease-out;
   }
   .nav_list {
