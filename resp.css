@@ -39,7 +39,7 @@
     margin: auto;
   }
   .v-class-resp {
-    opacity: 0;
+    opacity: 95;
     display: none;
   }
   .nav_height {
@@ -49,7 +49,7 @@
     display: block;
   }
   .container {
-    height: 100vh;
+    height: 0vh;
   }
   .right_half {
     color: #fff;
