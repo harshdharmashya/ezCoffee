@@ -141,6 +141,7 @@ html {
   font-size: 2rem;
   margin: 15px;
   font-family: "Salsa", cursive;
+  cursor: pointer;
 }
 
 .icons_div {
@@ -205,46 +206,56 @@ html {
   height: 100%;
   width: 100%;
 }
+
 .container_3nd {
   background-color: #fff;
   position: relative;
 }
+
 .menu_text {
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Salsa", cursive;
 }
+
 .coffee_menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
+
 .menu_coffee_div {
   height: 235px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .menu_coffee_div img {
   height: 200px;
   width: 70%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 10px;
 }
+
 .coffee2th:hover {
   scale: 120%;
   z-index: 5;
 }
+
 .container_4nd {
   background-color: rgb(75, 17, 17);
 }
+
 .contact {
   color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
+
 .left_contact_input {
   display: block;
   margin: auto;
@@ -256,6 +267,7 @@ html {
   padding: 10px;
   margin-bottom: 15px;
 }
+
 .contact_submit {
   width: 100px;
   display: block;
@@ -263,15 +275,95 @@ html {
   margin-top: 5px;
   padding: 5px;
 }
+
 .right_contact {
   margin: 15px;
-  
+
 }
+
 .social_icons {
   display: flex;
   gap: 15px;
   margin: 10px;
 }
+
 .color {
   color: #fff;
+}
+.thirdsection {
+  height: 100vh;
+}
+.titleofpage {
+  font-size: 29px;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  font-family: "Salsa", cursive;
+}
+.outer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inner img {
+  height: 450px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.inner:hover {
+  transform: scale(1.1);
+  transition: 0.8s ease-out;
+}
+
+.innertext5 {
+  color: #fff;
+  background-color: #0c8cb8;
+  z-index: 90;
+  position: relative;
+  width: 75%;
+  margin: auto;
+  bottom: 16px;
+  font-size: 1.5em;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+.fourthsection {
+  height: 70vh;
+}
+.item{
+  display: block;
+  margin: auto;
+  width: 60%;
+  
+}
+
+.owlimg {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.owlimg:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.colombia {
+  width: 15%;
+  display: block;
+  margin: auto;
+  text-decoration-line: none;
+  font-size: 15px;
+  color: brown;
+}
+.marquee{
+  height: 90vh;
+}
+.marquee-img{
+  object-fit: cover;
 }

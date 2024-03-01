@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ezCoffee</title>
+    <link rel="stylesheet" href="CSS/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+    <script src="JS/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,7 +17,7 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-            @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     </style>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
@@ -22,6 +27,7 @@
     </style>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="resp.css">
+
 </head>
 
 <body>
@@ -52,7 +58,7 @@
                 <h1 style="display: none;">hello</h1>
             </div>
             <div class="right_half">
-                <h1 class="text_right">ezCoffee</h1>
+                <h1 class="text_right" data-aos="fade-up">ezCoffee</h1>
                 <h3 class="text_right">The Best For You !</h3>
                 <div class="icons_div">
                     <div class="icons"><a href=""><img src="/images/1.png" alt=""></a></div>
@@ -63,9 +69,27 @@
             </div>
         </div>
     </section>
+    </section>
+    <section class="thirdsection">
+        <h1 class="titleofpage" data-aos="fade-down">Best of ezCoffee</h1>
+        <div class="outer">
+            <div class="inner"><img src="/images/first--third-section.png" alt="">
+                <h3 class="innertext5" style="background-color: yellow;">For You</h3>
+            </div>
+            <div class="inner"><img src="/images/secound--third-section.png" alt="">
+                <h3 class="innertext5" style="background-color: rgb(255, 117, 98);">For You</h3>
+            </div>
+            <div class="inner"><img src="/images/third--third--section.png" alt="">
+                <h3 class="innertext5">For You</h3>
+            </div>
+            <div class="inner"><img src="/images/fourth.png" alt="">
+                <h3 class="innertext5" style="background-color: rgb(91, 226, 91);">For You</h3>
+            </div>
+        </div>
+    </section>
     <section id="about" class="container_2nd">
         <div class="text_about_us">
-            <h1 class="text_right">ezCoffee</h1>
+            <h1 class="text_right" data-aos="fade-right">ezCoffee</h1>
             <h3 class="text_right_about">We make the delicious coffee for the Coffee lover.</h3>
             <p style="padding: 5px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus atque hic cum
                 ipsum delectus enim, numquam aperiam autem voluptate maxime dolor temporibus non ipsam asperiores quo
@@ -73,16 +97,65 @@
         </div>
         <div class="image_about_us"><img src="/images/about_us_coffee.jpeg" alt=""></div>
     </section>
+    <section class="marquee">
+        <marquee behavior="alternate" direction="right" scrollamount="50">
+            <img class="marquee-img" src="/images/marque--one.jpg" alt="">
+            <img class="marquee-img" src="/images/marque--two.jpg" alt="">    
+            <img class="marquee-img" src="/images/marque--one.jpg" alt="">
+        </marquee>
+    </section>
     <section id="menu" class="container_3nd">
-            <h1 class="menu_text">Our Menu</h1>
-            <div class="coffee_menu">
-                <div class="menu_coffee_div"><img class="coffee2th" src="/images/cappuccino.webp" alt=""></div>
-                <div class="menu_coffee_div"><img class="coffee2th" src="/images/latte.webp" alt=""></div>
-                <div class="menu_coffee_div"><img class="coffee2th" src="/images/Black-Coffee.jpg" alt=""></div>
-                <div class="menu_coffee_div"><img class="coffee2th" src="/images/espresso.jfif" alt=""></div>
-                <div class="menu_coffee_div"><img class="coffee2th" src="/images/Café au Lait.jfif" alt=""></div>
-                <div class="menu_coffee_div "><img class="coffee2th" src="/images/lungo.webp" alt=""></div>
+        <h1 class="menu_text">Our Menu</h1>
+        <div class="coffee_menu">
+            <div class="menu_coffee_div"><img class="coffee2th" src="/images/cappuccino.webp" alt=""></div>
+            <div class="menu_coffee_div"><img class="coffee2th" src="/images/latte.webp" alt=""></div>
+            <div class="menu_coffee_div"><img class="coffee2th" src="/images/Black-Coffee.jpg" alt=""></div>
+            <div class="menu_coffee_div"><img class="coffee2th" src="/images/espresso.jfif" alt=""></div>
+            <div class="menu_coffee_div"><img class="coffee2th" src="/images/Café au Lait.jfif" alt=""></div>
+            <div class="menu_coffee_div "><img class="coffee2th" src="/images/lungo.webp" alt=""></div>
+        </div>
+    </section>
+    <section class="fourthsection">
+        <h1 class="titleofpage" data-aos="fade-down">Why ezCoffee?</h1>
+        <script type="text/javascript">
+            var _smartsupp = _smartsupp || {};
+            _smartsupp.key = '02a11ae681f763f7581e645c490b81a81ea4d5ec';
+            window.smartsupp || (function (d) {
+                var s, c, o = smartsupp = function () { o._.push(arguments) }; o._ = [];
+                s = d.getElementsByTagName('script')[0]; c = d.createElement('script');
+                c.type = 'text/javascript'; c.charset = 'utf-8'; c.async = true;
+                c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
+            })(document);
+        </script>
+        <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <h5><img class="owlimg" src="/images/first--owl.avif" alt=""><a class="colombia" href="">Customer Service</a></h5>
             </div>
+            <div class="item">
+                <h5><img class="owlimg" src="/images/Cleanliness-secound-owl.jpg" alt=""><a class="colombia"
+                        href="">Cleanliness</a></h5>
+            </div>
+            <div class="item">
+                <h5><img class="owlimg" src="/images/Atmosphere--third--owl.webp" alt=""><a class="colombia"
+                        href="">Atmosphere</a></h5>
+            </div>
+            <div class="item">
+                <h5><img class="owlimg" src="/images/Happy Barista--fivfth--owl.jpg" alt=""><a class="colombia"
+                        href="">Happy Barista</a></h5>
+            </div>
+            <div class="item">
+                <h5><img class="owlimg" src="/images/Quality Products--fourth--owl.jpg" alt=""><a class="colombia"
+                        href="">Quality Products</a></h5>
+            </div>
+            <div class="item">
+                <h5><img class="owlimg" src="/images/Hygiene--six-owl.jpg" alt=""><a class="colombia" href="">Hygiene</a></h5>
+            </div>
+            <div class="item">
+                <h5><img class="owlimg" src="/images/Coffee taste--seventh-owl.jpg" alt=""><a class="colombia"
+                        href="">taste</a></h5>
+            </div>
+        </div>
     </section>
     <section id="contact" class="container_4nd">
         <div class="contact">
@@ -90,11 +163,12 @@
                 <div><input class="left_contact_input" type="text" placeholder="Your Name"></div>
                 <div><input class="left_contact_input" type="number" placeholder="Your Phone number"></div>
                 <div><input class="left_contact_input" type="email" placeholder="Your Email"></div>
-                <button class="left_contact_input contact_submit"><input type="submit" style="background: transparent;border: none;color: #fff;"></button>
+                <button class="left_contact_input contact_submit"><input type="submit"
+                        style="background: transparent;border: none;color: #fff;"></button>
             </div>
             <div class="right_contact">
                 <h1>(480)565-7878</h1>
-                <h3>shop no. 180 Allentown, New Mexico 56674</h3> 
+                <h3>shop no. 180 Allentown, New Mexico 56674</h3>
                 <br>
                 <br>
                 <h3>Tuesday-Friday:8am to 9pm</h3>
@@ -108,8 +182,40 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            smartSpeed: 1500,
+            animateIn: 'linear',
+            animateOut: 'linear',
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 220, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000,
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 
