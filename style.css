@@ -177,7 +177,6 @@ html {
 }
 
 .container_2nd {
-  height: 90vh;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -290,9 +289,6 @@ html {
 .color {
   color: #fff;
 }
-.thirdsection {
-  height: 100vh;
-}
 .titleofpage {
   font-size: 29px;
   display: flex;
@@ -329,9 +325,7 @@ html {
   text-align: center;
   cursor: pointer;
 }
-.fourthsection {
-  height: 70vh;
-}
+
 .item{
   display: block;
   margin: auto;

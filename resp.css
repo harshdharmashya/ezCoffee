@@ -58,9 +58,7 @@
     display: block;
     margin: auto;
   }
-  .container_2nd {
-    height: 50vh;
-  }
+
   .text_about_us {
     width: 50%;
   }
@@ -84,4 +82,24 @@
   .left_contact_input {
     margin-top: 10px;
   }
+  .titleofpage {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-family: "Salsa", cursive;
+  }
+  .outer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+  }
+  
+  .inner img {
+    height: 220px;
+    width: 180px;
+    object-fit: cover;
+    margin: 0px 10px;
+  }
+  
 }
